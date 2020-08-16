@@ -16,7 +16,7 @@ datasets:
     name: DIV2K
     mode: LQGT
     dataroot_GT: /mnt/data/download/div2k_edsr/DIV2K/DIV2K_train_HR # path to training HR images
-    dataroot_LQ: /mnt/data/download/div2k_edsr/DIV2K/DIV2K_train_LR_bicubic/X4 # path to training reference LR images, not necessary, if not provided, LR images will be generated in dataloader
+    dataroot_LQ: ~ # path to training reference LR images, not necessary, if not provided, LR images will be generated in dataloader
 
     use_shuffle: true
     n_workers: 6  # per GPU
